@@ -37,7 +37,3 @@ ENTRYPOINT (cd /nginx-src/nginx-1.20.1 && ./configure \
     && cp objs/nginx /nginx \
     && cp -r conf /nginx \
     && echo "DONE" )
-
-#exec /opt/jboss/keycloak/bin/standalone.sh $SYS_PROPS $@
-#exit $?
-
