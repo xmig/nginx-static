@@ -6,16 +6,18 @@ Target platform - **ubuntu**
 
 Minimal external dependencies
 
-##pre requirements
+## pre requirements
 - docker installed
 - current folder is possible for docker sharing
 
-##usage
+## usage
 `./compile_nginx.sh`
 
 List of compile options - please see Dockerfile
 
-##result
+## result
 Get resulted image in **nginx** folder 
 
+
+More info: [see here](https://github.com/xmig/nginx-static)
 
